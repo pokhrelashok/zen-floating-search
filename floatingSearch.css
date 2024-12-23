@@ -10,7 +10,7 @@
   ;
 }
 
-#urlbar:is([breakout-extend], [usertyping][focused]) {
+#urlbar:is([breakout-extend][open], [open][usertyping][focused]) {
   opacity: 100;
 
   #urlbar-input {
